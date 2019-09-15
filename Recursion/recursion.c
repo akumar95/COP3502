@@ -12,7 +12,7 @@ void rec(int n)
     // Print the variable and then recursively call the function.
     printf("%d\n", n);
     rec(n - 1);
-    // Because we are printing the value before the recursive call, the value decreases.
+    // Because we are printing the value before the recursive call, the value decreases. This is known as tail recursion.
   }
 }
 
