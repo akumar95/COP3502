@@ -10,7 +10,7 @@ int sum(int n)
   return sum(n - 1) + n;
 }
 
-// For-loop version (interative).
+// For-loop version (iteratively).
 int iSum(int n)
 {
   int s = 0;
