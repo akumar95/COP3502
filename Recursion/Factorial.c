@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Solution to find the factorial of a n value recuesively and iteratively..
+// Solution to find the factorial of a n value recuesively and iteratively.
 
 // Function to recursively find the factorial.
 int fact(int n)
@@ -11,7 +11,7 @@ int fact(int n)
   return fact(n - 1) * n;
 }
 
-// Function to iteratively the factorial.
+// Function to iteratively find the factorial.
 int iFact(int n)
 {
   int f = 1;
