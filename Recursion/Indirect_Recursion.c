@@ -3,8 +3,8 @@
 
 // Indirect recursion there may be one or more functions calling each other in loop fashion.
 
+// Prototype of the functions
 void funB(int n);
-
 void funA(int n);
 
 void funA(int n)
